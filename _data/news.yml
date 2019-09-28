@@ -1,0 +1,14 @@
+news:
+- date: 2019-09-28
+  yesterday: On Wednesday, September 25 Speaker of the House Nancy Pelosi announced an impeachment inquiry against President Donald Trump. 
+  todays: 
+    - item: one thing
+      source: x
+      url: x
+    - item: another thing
+      source: x
+      url: x
+    - item: a third thing
+      source: x
+      url: x
+  tomorrow: We'll be watching that first subpoena and what happens next. 

@@ -1,0 +1,135 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+div#wrapper {
+  max-width: 800px;
+}
+
+h1, h2, h3, p {
+  text-align: left;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 4em;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-family: gothic-open-shaded, sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+}
+
+h1 span.smaller {
+  font-size: .8em;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 100px;
+}
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 150px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+p.intro {
+  font-size: 1em;
+}
+
+.today {
+  margin-top: 25px;
+  font-size: 1.5em;
+  margin-bottom: 25px;
+}
+
+#titlebox {
+  margin-bottom: 50px;
+}
+.site-footer {
+    border-top: 0;
+    margin-top: 100px;
+}
+
+.site-footer p {
+  font-size: 1em;
+}
+
+div#mail {
+  margin-top: 50px;
+  padding: 5% 0;
+  border: solid black 2px;
+  box-shadow: 10px 10px black;
+  height: 20px;
+}
+
+div#mail p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+div#archive p {
+  text-align: left;
+}
+
+div.list {
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h1, {
+    margin-top: 25px;
+    font-size: 2em;
+  }
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#titlebox {
+  margin-bottom: 20px;
+}
+
+.site-footer {
+    border-top: 0;
+    margin-top: 25px;
+}
+
+div.list {
+  width: 90%;
+}
+
+}

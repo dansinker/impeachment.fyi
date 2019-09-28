@@ -8,12 +8,19 @@ layout: none
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for new in site.data.news %}
+    {% for new in site.data.news.news %}
       <item>
-        <title>Impeachment latest: >{{ site.data.news.news.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</title>
-        <description><p>previously: {{ site.data.news.news.yesterday | xml_escape }}
-        <p>Today: </description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>Impeachment latest: {{ new.date | date: "%B %-d, %Y" }}</title>
+        <description><p>Where we're at: {{ new.yesterday | xml_escape }}</p>
+        <p>Today:</p>
+        <ul>
+         {% for today in new.todays %}
+          <li>{{ today.item }}</li>
+        {% endfor %}
+        </ul>
+        <p><b>Watch to Watch For:</b> {{ new.tomorrow }}</p>
+        </description>
+        <pubDate>{{ new.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}/{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
       </item>

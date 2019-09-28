@@ -12,3 +12,29 @@ news:
       source: x
       url: x
   tomorrow: We'll be watching that first subpoena and what happens next. 
+- date: 2019-09-27
+  yesterday: Here was the day before thing. 
+  todays: 
+    - item: day before one thing
+      source: x
+      url: x
+    - item: day before another thing
+      source: x
+      url: x
+    - item: day before a third thing
+      source: x
+      url: x
+  tomorrow: Second thing on the list with a thing. 
+- date: 2019-09-26
+  yesterday: here's the first thing on the feed. 
+  todays: 
+    - item: first thing
+      source: x
+      url: x
+    - item: first second thing
+      source: x
+      url: x
+    - item: first a third thing
+      source: x
+      url: x
+  tomorrow: we'll see. 

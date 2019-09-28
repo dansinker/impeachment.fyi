@@ -13,12 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Impeachment.fyi
-description: A quick snapshot of what's happening in the impeachment proceedings.
+title: "Impeachment.fyi"
+description: "A quick snapshot of what's happening in the impeachment proceedings."
+url: "https://www.impeachment.fyi"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dansinker
 github_username:  sinker
+
 
 # Build settings
 markdown: kramdown

@@ -11,3 +11,5 @@ layout: home
   </ul>
 
 <p class="intro"><b>Watch to Watch For:</b> {{ site.data.news.news[0].tomorrow }}</p>
+
+<p class="intro">Check <a href="archive"> the archive</a> for previous updates.</p>

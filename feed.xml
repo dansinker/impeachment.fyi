@@ -2,7 +2,7 @@
 layout: none
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
@@ -11,7 +11,8 @@ layout: none
     {% for new in site.data.news.news %}
       <item>
         <title>Impeachment latest: {{ new.date | date: "%B %-d, %Y" }}</title>
-        <description><p>Where we're at: {{ new.yesterday | xml_escape }}</p>
+        <description>Impeachment update from {{ new.date | date: "%B %-d, %Y" }}</description>
+        <content:encoded><![CDATA[<p>Where we're at: {{ new.yesterday | xml_escape }}</p>
         <p>Today:</p>
         <ul>
          {% for today in new.todays %}
@@ -23,7 +24,8 @@ layout: none
         <pubDate>{{ new.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}/archive#{{ new.date | date: "%Y-%m-%d" }}</link>
         <guid isPermaLink="true">{{ site.url }}/archive#{{ new.date | date: "%Y-%m-%d" }}</guid>
-      </item>
-    {% endfor %}
+    ]]></content:encoded>
+    </item>
+     {% endfor %}
   </channel>
 </rss>

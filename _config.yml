@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Impeachment dot fyi"
-description: "A quick snapshot of what's happening in the impeachment proceedings."
+description: "A quick snapshot of what's happening now in impeachment news."
 url: "https://www.impeachment.fyi"
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: dansinker
@@ -30,3 +30,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+

@@ -8,6 +8,8 @@ body {
   margin-left: 300px;
   margin-right: 100px;
   background-color: rgb(238, 216, 211);
+  font-family: source-sans-pro, sans-serif;  
+  
 }
 
 div#wrapper {
@@ -52,9 +54,12 @@ p {
 }
 
 p.intro {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
+h2 time {
+  font-weight: 600;
+}
 .today {
   margin-top: 25px;
   font-size: 1.5em;
@@ -66,7 +71,7 @@ span.small {
 }
 
 .today li {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 #titlebox {

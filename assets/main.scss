@@ -85,6 +85,7 @@ span.small {
 #titlebox {
   margin-bottom: 50px;
 }
+
 .site-footer {
     border-top: 0;
     margin-top: 100px;
@@ -107,6 +108,7 @@ div#mail p {
   text-align: center;
   font-size: 1.2em;
 }
+
 
 div#archive h2 {
   font-size: 2em;
@@ -163,6 +165,23 @@ h2 {
   margin-bottom: 50px;
 }
 
+h3.promo {
+  font-size: 1.3em;
+}
+
+div#archive h2 {
+  font-size: 1.5em;
+}
+
+#titlebox h3 {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.today {
+  font-size: 1.3em;
+}
+
 p {
   font-size: 1em;
   margin-left: 10px;
@@ -173,14 +192,10 @@ p {
   margin-bottom: 20px;
 }
 
-
-
 div#mail {
-  margin-top: 50px;
-  padding: 5% 5%;
-  border: solid black 2px;
-  box-shadow: 10px 10px black;
+  max-width: 95%;
 }
+
 
 .site-footer {
     border-top: 0;

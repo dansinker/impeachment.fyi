@@ -11,7 +11,7 @@ layout: home
 
 <p class="outtro"><b>What's coming next:</b> {{ site.data.news.news[0].tomorrow }}</p>
 
-<h3>Get caught up further with <a href="archive"> the archive</a></h3>
+<h3 class="promo">Get caught up further with <a href="archive"> the archive</a></h3>
 
 
 

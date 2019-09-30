@@ -1,4 +1,30 @@
 news:
+- date: 2019-09-27
+  yesterday: An <a href="https://www.nytimes.com/2019/09/24/us/politics/democrats-impeachment-trump.html">impeachment inquiry is underway</a>! The inquiry stems from a whistleblower's complaint around a phone call Trump had with the president of Ukraine. The <a href="https://www.washingtonpost.com/context/read-the-whistleblower-complaint-regarding-president-trump-s-communications-with-ukrainian-president-volodymyr-zelensky/4b9e0ca5-3824-467f-b1a3-77f2d4ee16aa/">complaint was released publicly yesterday</a>. 
+  todays: 
+  - item: The first subpoena in the impeachment inquiry has been issued! Democrats from three House committees subpoenad Secretary of State Mike Pompeo for documents relating to the President's call with the Ukranian President and any facilitation the State Department did for his personal lawyer, Rudy Giuliani. Will Pompeo comply? Well, "failure or refusal to comply with the subpoena shall constitute evidence of obstruction of the House’s impeachment inquiry."
+    source: ABC News
+    url: https://abcnews.go.com/Politics/democrats-issue-subpoena-pompeos-ukraine-documents/story?id=65912440
+  - item: US Special Envoy for Ukraine Kurt Volker resigned his position. Volker had been named in the whistleblower report, which claimed he had helped organize meetings for Rudy Giuliani in Ukraine. 
+    source: The State Press
+    url: https://www.statepress.com/article/2019/09/sppolitics-mccain-head-steps-down
+  - item: Speaking of Rudy Giuliani, he has kept busy reading his text messages on cable news. Not only do they confirm (again) Guiuliani's involvement, they also implicate the State Department and Kurt Volker in particular. 
+    source: Vox
+    url: https://www.vox.com/policy-and-politics/2019/9/27/20887170/rudy-giuliani-text-messages-ukraine-fox-news-state-department-volker
+  tomorrow: The White House doesn't have a great track record with complying with subpoenas so that may be a thing. Deadline is October 4.
+- date: 2019-09-26
+  yesterday: An <a href="https://www.nytimes.com/2019/09/24/us/politics/democrats-impeachment-trump.html">impeachment inquiry is underway</a>! The inquiry stems from a phone call Trump had with the president of Ukraine--a <a href="https://apps.npr.org/documents/document.html?id=6429015-Trump-Ukraine-Transcript">summary transcript of which was released</a> on September 25th. 
+  todays: 
+    - item: The whistleblower's complaint was released by House Intelligence chair Adam Schiff. In it, the whistleblower accuses the president of "using the power of his office to solicit interference from a foreign country in the 2020 U.S. election," in his call with the Ukranian President and of unnamed senior White House officials intervening "to "lock down" all records of the phone call."
+      source: Unclassified document
+      url: https://www.washingtonpost.com/context/read-the-whistleblower-complaint-regarding-president-trump-s-communications-with-ukrainian-president-volodymyr-zelensky/4b9e0ca5-3824-467f-b1a3-77f2d4ee16aa/
+    - item: The Acting Director of National Intelligence, Joseph Maguire, testified to the House Intelligence Committee about the whistleblower complaint. "I am aware that this is unprecedented," he said about a complaint like this involving the president. "This has never happened before. This is a unique situation."
+      source: Politico
+      url: https://www.politico.com/story/2019/09/26/joseph-maguire-testimony-trump-whistleblower-1514165
+    - item: Speaking to a group of US Diplomats in New York, Trump accused the whistleblower of being "like a spy" and threatened "You know what we used to do in the old days when we were smart? Right? The spies and treason, we used to handle it a little differently than we do now."
+      source: LA Times
+      url: https://www.latimes.com/politics/story/2019-09-26/trump-at-private-breakfast-who-gave-the-whistle-blower-the-information-because-thats-almost-a-spy
+  tomorrow: More blowback from today's revelations surely. Plus, movement in the house toward new inquiries hopefully.
 - date: 2019-09-25
   yesterday: Nancy Pelosi announced <a href="https://www.nytimes.com/2019/09/24/us/politics/democrats-impeachment-trump.html">a formal impeachment inquiry against Trump</a> and Trump, in denying any wrongdoing <a href="https://www.nbcnews.com/politics/donald-trump/trump-acknowledges-withholding-funds-ukraine-n1058126">committed to releasing the transcript</a> of his phone call with Ukrainian President Zekensky.
   todays: 

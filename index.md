@@ -9,8 +9,8 @@ layout: home
 {% endfor %}
   </ul>
 
-<p class="intro"><b>What's coming next:</b> {{ site.data.news.news[0].tomorrow }}</p>
+<p class="outtro"><b>What's coming next:</b> {{ site.data.news.news[0].tomorrow }}</p>
 
-<p class="intro">Check <a href="archive"> the archive</a> for previous updates.</p>
+<h3>Get caught up further with <a href="archive"> the archive</a></h3>
 
 

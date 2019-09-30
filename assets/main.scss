@@ -19,7 +19,7 @@ div#wrapper {
 img#logo {
   width: 70%;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 h1, h2, h3, p {
@@ -42,19 +42,23 @@ h1 span.smaller {
 
 h2 {
   font-size: 3em;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 h3 {
   font-size: 1.5em;
-  margin-bottom: 150px;
 }
 
 p {
   font-size: 1.2em;
 }
 
-p.intro {
+p.intro, p.outtro {
   font-size: 1.1em;
+}
+
+p.outtro {
+  margin-top: -10px;
+  margin-bottom: 50px;
 }
 
 h2 time {
@@ -100,14 +104,25 @@ div#mail p {
   font-size: 1.2em;
 }
 
+div#archive h2 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+div#archive h3 {
+  font-weight: 600;
+}
+
 div#archive p {
   text-align: left;
 }
 
+div#archive li {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
 div.list {
-  width: 65%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 a {

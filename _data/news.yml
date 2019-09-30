@@ -1,46 +1,21 @@
 news:
-- date: 2019-09-29
-  yesterday: I tested whether this will actually work. And other things happened as well. 
+- date: 2019-09-25
+  yesterday: Nancy Pelosi announced <a href="https://www.nytimes.com/2019/09/24/us/politics/democrats-impeachment-trump.html">a formal impeachment inquiry against Trump</a> and Trump, in denying any wrongdoing <a href="https://www.nbcnews.com/politics/donald-trump/trump-acknowledges-withholding-funds-ukraine-n1058126">committed to releasing the transcript</a> of his phone call with Ukrainian President Zekensky.
   todays: 
-    - item: We ate dinner at Hmart and it was delicious.
-    - item: But otherwise I have been tired as death all day.
-  tomorrow: Hopefully less tired by a lot. 
-- date: 2019-09-28
-  yesterday: On Wednesday, September 25 Speaker of the House Nancy Pelosi announced an impeachment inquiry against President Donald Trump. 
+    - item: It's transcript day! The White House released the transcript (which was not a verbatim transcript) of his call with Ukranian President Zelensky. In the transcript, Trump asks Zelensky for "a favor" and asks for him to cooperate with his personal attorney Rudy Giuliani in looking into Joe Biden and his son Hunter's activities in Ukraine. 
+      source: Unclassified document.
+      url: https://apps.npr.org/documents/document.html?id=6429015-Trump-Ukraine-Transcript
+    - item: another
+      source: another
+      url: another
+  tomorrow: 
+- date: 2019-09-24
+  yesterday: Concern has been growing for a week following leaked whistleblower reports that the president had a conversation with the president of Ukraine in which an unknown "promise" had been made. 
   todays: 
-    - item: one thing
-      source: x
-      url: x
-    - item: another thing
-      source: x
-      url: x
-    - item: a third thing
-      source: x
-      url: x
-  tomorrow: We'll be watching that first subpoena and what happens next. 
-- date: 2019-09-27
-  yesterday: Here was the day before thing. 
-  todays: 
-    - item: day before one thing
-      source: x
-      url: x
-    - item: day before another thing
-      source: x
-      url: x
-    - item: day before a third thing
-      source: x
-      url: x
-  tomorrow: Second thing on the list with a thing. 
-- date: 2019-09-26
-  yesterday: here's the first thing on the feed. 
-  todays: 
-    - item: first thing
-      source: x
-      url: x
-    - item: first second thing
-      source: x
-      url: x
-    - item: first a third thing
-      source: x
-      url: x
-  tomorrow: we'll see. 
+    - item: Nancy Pelosi announced a formal impeachment inquiry against President Donald Trump explaining "he is asking a foreign government to help him in his campaign, that is a betrayal of his oath of office."
+      source: New York Times
+      url: https://www.nytimes.com/2019/09/24/us/politics/democrats-impeachment-trump.html
+    - item: The White House agrees to release the transcript of Trump's call with Ukrainian President Zelensky--which Trump insists is "totally appropriate"--tomorrow. 
+      source: NBC News
+      url: https://www.nbcnews.com/politics/donald-trump/trump-acknowledges-withholding-funds-ukraine-n1058126
+  tomorrow: It's going to be transcript day and, hopefully, we'll learn more about what Nancy Pelosi and the democrats have in mind. 

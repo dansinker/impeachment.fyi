@@ -57,7 +57,7 @@
         minutes: "Today",
         hour: "Today",
         hours: "Today",
-        day: "A Day Ago",
+        day: "Yesterday",
         days: "%D Days Ago",
         month: "About a Month Ago",
         months: "%D months ago",

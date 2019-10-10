@@ -30,7 +30,7 @@ layout: home
           {% endif %}
         {% endfor %}
       {% else %}
-      <h3>Week {{week_num}}</h3>
+      <h3>{{week_num}} Weeks Ago</h3>
       {% for new in site.data.news.news %}
           {% assign news_week = new.date | date: "%W" | plus: 0 %}
           {% assign week_dif = current_week | minus: news_week | plus:0 %}  

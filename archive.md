@@ -33,7 +33,11 @@ layout: home
         </section>
       {% else %}
       <section class="week">
-      <h3>{{week_num}} Weeks Ago</h3>
+      {% if week_num ==1 %}
+        <h3>Last Week</h3>
+      {% else %}
+        <h3>{{week_num}} Weeks Ago</h3>
+      {% endif %}
       {% for new in site.data.news.news %}
           {% assign news_week = new.date | date: "%W" | plus: 0 %}
           {% assign week_dif = current_week | minus: news_week | plus:0 %}  

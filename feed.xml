@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
@@ -12,15 +12,15 @@ layout: none
       <item>
         <title>Impeachment latest: {{ new.date | date: "%B %-d, %Y" }}</title>
         <description>Impeachment update from {{ new.date | date: "%B %-d, %Y" }}</description>
-        <content:encoded><![CDATA[<p>Where we're at: {{ new.yesterday }}</p>
-        <p>Today:</p>
-        <ul>
+        <content:encoded><![CDATA[<h2>Where We're At</h2>
+          <p>{{ new.yesterday }}</p>
+          <h2>Today</h2>
           {% for today in new.todays %}
-            <li>{{ today.item }} <span class="small">(Source: <a href="{{ today.url }}">{{ today.source }}</a>)</span></li>
+            <p>{{ today.item }} {% if today.source != null %}<small>(Source: <a href="{{ today.url }}">{{ today.source }}</a>)</small>{% endif %}</p>
           {% endfor %}
-        </ul>
-        <p><b>What to Watch For:</b> {{ new.tomorrow }}</p>
-    ]]></content:encoded>
+          <h2>Watch to Watch For:</h2>
+          <p>{{ new.tomorrow }}</p>
+        ]]></content:encoded>
         <pubDate>{{ new.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}/archive#{{ new.date | date: "%Y-%m-%d" }}</link>
         <guid isPermaLink="true">{{ site.url }}/archive#{{ new.date | date: "%Y-%m-%d" }}</guid>

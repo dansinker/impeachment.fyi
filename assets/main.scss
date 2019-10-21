@@ -97,13 +97,21 @@ span.small {
   font-size: 1em;
 }
 
-.addthis_tipjar_inline {
+.addthis_tipjar_inline, p.tips {
   padding-bottom: 25px;
 }
 
 #attj div.at-tjin-title p span {
   float: left;
   margin-right: 10px;
+}
+
+span.mobile {
+  display: none;
+}
+
+span.desktop {
+  display: inline;
 }
 
 
@@ -198,6 +206,18 @@ p {
 
 #titlebox {
   margin-bottom: 20px;
+}
+
+span.desktop {
+  display: none;
+}
+
+span.mobile {
+  display: inline;
+}
+
+p.tips {
+  margin-left: 0;
 }
 
 div#mail {

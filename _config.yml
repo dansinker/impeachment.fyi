@@ -17,8 +17,6 @@ title: "Impeachment dot fyi"
 description: "A quick snapshot of what's happening now in impeachment news."
 url: "https://www.impeachment.fyi"
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: dansinker
-github_username:  sinker
 timezone: "America/Chicago"
 
 

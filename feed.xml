@@ -15,9 +15,9 @@ layout: none
         <content:encoded><![CDATA[<p>Where we're at: {{ new.yesterday }}</p>
         <p>Today:</p>
         <ul>
-         {% for today in new.todays %}
-          <li>{{ today.item }}</li>
-        {% endfor %}
+          {% for today in new.todays %}
+            <li>{{ today.item }} <span class="small">(Source: <a href="{{ today.url }}">{{ today.source }}</a>)</span></li>
+          {% endfor %}
         </ul>
         <p><b>What to Watch For:</b> {{ new.tomorrow }}</p>
     ]]></content:encoded>

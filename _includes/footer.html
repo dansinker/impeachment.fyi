@@ -1,6 +1,14 @@
-<footer class="site-footer">
-
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_tipjar_inline"></div>
+
+{% if page.url == "/" %}
+
+<h3 class="promo">Get caught up further with <a href="archive"> the archive</a></h3>
+
+{% endif %}
+
+{% include newsletter.html %}
+
+<footer class="site-footer">
 
 <p>Last updated {{ site.data.news.news[0].date | date: "%b %-d, %Y" }}. Updated every weekday evening, plus once on Sunday morning.</p>
 

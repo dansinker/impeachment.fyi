@@ -1,0 +1,12 @@
+{% assign new = include.new %}
+{% assign week_num = new.date | date: "%U" %}
+{% if include.if_week == week_num %}
+  <article class="day" id="{{ new.date | date: '%Y-%m-%d' }}">
+    <time>{{ new.date | date: "%A %B %d, %Y" }}</time>
+    <ul>
+    {% for today in new.todays %}
+      <li>{{ today.item }} {% if today.source != null %}<small>(Source: <a href="{{ today.url }}">{{ today.source }}</a>)</small>{% endif %}</li>
+    {% endfor %}
+    </ul>
+  </article>
+{% endif %}

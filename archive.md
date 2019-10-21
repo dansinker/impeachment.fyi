@@ -13,45 +13,24 @@ layout: home
     {% assign weeks_array = filtered_dates_array | split: ' ' | uniq | join: ' '  %}
     {% assign weeks = weeks_array | split: ' '%}
     {% for week in weeks %}
-    {% assign week_num = current_week | minus:week | plus:0 %}
+      {% assign week_num = current_week | minus:week | plus:0 %}
       {% if week_num == 0 %}
         <section class="week">
-        <h3>This Week</h3>
-        {% for new in site.data.news.news %}
-          {% assign news_week = new.date | date: "%U" | plus: 0 %}  
-          {% if current_week == news_week %}
-            <article class="day">
-              <time>{{ new.date | date: "%A %B %d, %Y" }}</time>
-              <ul>
-              {% for today in new.todays %}
-                  <li>{{ today.item }} {% if today.source != null %}<small>(Source: <a href="{{ today.url }}">{{ today.source }}</a>)</small>{% endif %}</li>
-              {% endfor %}
-            </ul>
-            </article>
-          {% endif %}
-        {% endfor %}
+          <h3>This Week</h3>
+          {% for new in site.data.news.news %}
+            {% include archive-article.html new=new if_week=current_week %}
+          {% endfor %}
         </section>
       {% else %}
-      <section class="week">
-      {% if week_num == 1 %}
-        <h3>Last Week</h3>
-      {% else %}
-        <h3>{{week_num}} Weeks Ago</h3>
-      {% endif %}
-      {% for new in site.data.news.news %}
-          {% assign news_week = new.date | date: "%U" | plus: 0 %}
-          {% assign week_dif = current_week | minus: news_week | plus:0 %}  
-          {% if week_dif == week_num %}
-            <article class="day">
-              <time>{{ new.date | date: "%A %B %d, %Y" }}</time>
-              <ul>
-              {% for today in new.todays %}
-                  <li>{{ today.item }} {% if today.source != null %}<small>(Source: <a href="{{ today.url }}">{{ today.source }}</a>)</small>{% endif %}</li>
-              {% endfor %}
-            </ul>
-            </article>
+        <section class="week">
+          {% if week_num == 1 %}
+            <h3>Last Week</h3>
+          {% else %}
+            <h3>{{week_num}} Weeks Ago</h3>
           {% endif %}
-        {% endfor %}
+          {% for new in site.data.news.news %}
+            {% include archive-article.html new=new if_week=week %}
+          {% endfor %}
         </section>
       {% endif %}
     {% endfor %}

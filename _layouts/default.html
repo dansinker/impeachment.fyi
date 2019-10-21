@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {% include head.html %}
 
   <body>
-<div id="wrapper">
-        {{ content }}
+    <div id="wrapper">
+      {{ content }}
+      {% include footer.html %}
+    </div>
 
-
-    {% include footer.html %}
-  </div>
-
-<script>
-  jQuery(document).ready(function() {
-    jQuery("time.timeago").timeago();
-  });
-  </script>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d95e7b584011cb6">
-  </script>
-  <style type="text/css">
-    div#attj {
-    animation-name: none !important;
-    }
+    <script>
+      jQuery(document).ready(function() {
+        jQuery("time.timeago").timeago();
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d95e7b584011cb6"
+    ></script>
+    <style type="text/css">
+      div#attj {
+        animation-name: none !important;
+      }
     </style>
-    </body>
-  
-  </html>
+  </body>
+</html>

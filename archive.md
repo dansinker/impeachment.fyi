@@ -24,8 +24,8 @@ layout: home
               <time>{{ new.date | date: "%A %B %d, %Y" }}</time>
               <ul>
               {% for today in new.todays %}
-                  <li>{{ today.item }} <span class="small">{% if today.source != null %}<a href="{{ today.url }}">(Source: {{ today.source }})</a>{% endif %}</span></li> 
-              {% endfor %} 
+                  <li>{{ today.item }} {% if today.source != null %}<small>(Source: <a href="{{ today.url }}">{{ today.source }}</a>)</small>{% endif %}</li>
+              {% endfor %}
             </ul>
             </article>
           {% endif %}
@@ -33,7 +33,7 @@ layout: home
         </section>
       {% else %}
       <section class="week">
-      {% if week_num ==1 %}
+      {% if week_num == 1 %}
         <h3>Last Week</h3>
       {% else %}
         <h3>{{week_num}} Weeks Ago</h3>
@@ -46,8 +46,8 @@ layout: home
               <time>{{ new.date | date: "%A %B %d, %Y" }}</time>
               <ul>
               {% for today in new.todays %}
-                  <li>{{ today.item }} <span class="small">{% if today.source != null %}<a href="{{ today.url }}">(Source: {{ today.source }})</a>{% endif %}</span></li> 
-              {% endfor %} 
+                  <li>{{ today.item }} {% if today.source != null %}<small>(Source: <a href="{{ today.url }}">{{ today.source }}</a>)</small>{% endif %}</li>
+              {% endfor %}
             </ul>
             </article>
           {% endif %}

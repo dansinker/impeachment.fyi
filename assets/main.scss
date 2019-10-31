@@ -65,6 +65,17 @@ p.small {
   font-size: .8em;
 }
 
+p.alert {
+  color: black;
+  font-size: .8em;
+  padding: 3px;
+}
+
+span.alert {
+  background-color: black;
+  color: white;
+}
+
 b {
   font-weight: 600;
 }

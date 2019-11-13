@@ -5,7 +5,7 @@ layout: home
 <h2 class="today"><time class="timeago" datetime="{{ site.data.news.news[0].date }}">{{ site.data.news.news[0].date }}</time></h2>
 <ul class="today">
 {% for today in site.data.news.news[0].todays %}
- <li>{{ today.item }} <span class="small">(Source: <a href="{{ today.url }}">{{ today.source }}</a>)</span></li>
+ <li>{{ today.item }} <span class="small">{% if today.source != null %}(Source: <a href="{{ today.url }}">{{ today.source }}</a>){% endif %}</span></li>
 {% endfor %}
   </ul>
 

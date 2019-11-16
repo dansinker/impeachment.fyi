@@ -19,7 +19,7 @@ layout: none
           <li>{{ today.item }}</li>
         {% endfor %}
         </ul>
-        <p><b>Watch to Watch For:</b> {{ new.tomorrow }}</p>
+        <p><b>What to Watch For:</b> {{ new.tomorrow }}</p>
     ]]></content:encoded>
         <pubDate>{{ new.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}/archive#{{ new.date | date: "%Y-%m-%d" }}</link>

@@ -19,6 +19,7 @@ url: "https://www.impeachment.fyi"
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: dansinker
 github_username:  sinker
+timezone: "America/Chicago"
 
 
 # Build settings

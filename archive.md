@@ -24,7 +24,7 @@ layout: home
               <time>{{ new.date | date: "%A %B %d, %Y" }}</time>
               <ul>
               {% for today in new.todays %}
-                  <li>{{ today.item }} <span class="small"><a href="{{ today.url }}">(Source: {{ today.source }})</a></span></li> 
+                  <li>{{ today.item }} <span class="small">{% if today.source != null %}<a href="{{ today.url }}">(Source: {{ today.source }})</a>{% endif %}</span></li> 
               {% endfor %} 
             </ul>
             </article>
@@ -46,7 +46,7 @@ layout: home
               <time>{{ new.date | date: "%A %B %d, %Y" }}</time>
               <ul>
               {% for today in new.todays %}
-                  <li>{{ today.item }} <span class="small"><a href="{{ today.url }}">(Source: {{ today.source }})</a></span></li> 
+                  <li>{{ today.item }} <span class="small">{% if today.source != null %}<a href="{{ today.url }}">(Source: {{ today.source }})</a>{% endif %}</span></li> 
               {% endfor %} 
             </ul>
             </article>

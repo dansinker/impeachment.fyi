@@ -13,6 +13,10 @@ layout: home
     {% assign weeks_array = filtered_dates_array | split: ' ' | uniq | join: ' '  %}
     {% assign weeks = weeks_array | split: ' '%}
     {% for week in weeks %}
+    {% assign week_week = week | plus:0 %}
+    {% if current_week < week_week %}
+      {% assign current_week = current_week | plus: 52 %}
+    {% endif %}
     {% assign week_num = current_week | minus:week | plus:0 %}
       {% if week_num == 0 %}
         <section class="week">

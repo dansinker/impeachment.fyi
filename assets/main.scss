@@ -93,11 +93,6 @@ h2 time {
   padding-bottom: 20px;
 }
 
-li li:first-child {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 #titlebox {
   margin-bottom: 25px;
 }
@@ -156,7 +151,7 @@ div#archive p {
   text-align: left;
 }
 
-div#archive li {
+div#archive article>ul>li {
   font-size: 1.2em;
   margin-bottom: 15px;
 }
@@ -259,6 +254,6 @@ div.list {
   margin-bottom: 1em;
 }
 
-.day ul {
+.day > ul {
   padding-top: 1em;
 }

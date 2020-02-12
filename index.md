@@ -1,6 +1,7 @@
 ---
 layout: home
 ---
+<p class="alert"><b>With the final impeachment trial vote, Impeachment.fyi is no longer updating.</b></p> 
 <p class="intro"><b>Previously:</b> {{ site.data.news.news[0].yesterday }}</p>
 <h2 class="today"><time class="timeago" datetime="{{ site.data.news.news[0].date }}">{{ site.data.news.news[0].date }}</time></h2>
 <ul class="today">

@@ -69,8 +69,13 @@ p.small {
 p.alert {
   background-color: rgb(240, 134, 102);
   color: white;
-  text-align: center;
+  text-align: left;
+  padding: 5px;
   border-radius: 5px;
+}
+
+p.alert a{
+ color: White;
 }
 
 b {

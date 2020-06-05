@@ -2,7 +2,7 @@
 layout: home
 ---
 <div id="archive">
-  <h2>Here's all of it.</h2>
+  <h2>The impeachment happened. Here's all of it.</h2>
   <ul>
       {% assign sorted = (site.data.news.news | sort: 'news.date') | reverse %}
       {% for item in sorted %}

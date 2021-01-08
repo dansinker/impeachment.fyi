@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<p class="alert"><b>Please note: When the impeachment trial ended on February 5, 2020, so did impeachment.fyi. This page is presented as it was last updated. For a full account of the impeachment from start to finish, <a href="/archive">visit the archive</a>.</b></p> 
+<p class="alert"><b>JAN 8 UPDATE: Impeachment.fyi will relaunch on Monday, January 11, if the House starts a new impeachment proceeeding. For a full account of the <i>last</i> impeachment from start to finish, <a href="/archive">visit the archive</a>. Until Monday, this page remains in the state it was in when the 2020 trial ended.</b></p> 
 <p class="intro"><b>Previously:</b> {{ site.data.news.news[0].yesterday }}</p>
 <h2 class="today"><time class="timeago" datetime="{{ site.data.news.news[0].date }}">{{ site.data.news.news[0].date }}</time></h2>
 <ul class="today">

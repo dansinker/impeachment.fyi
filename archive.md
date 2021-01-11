@@ -6,7 +6,7 @@ layout: home
   <div class="list">
     {% assign current_week = site.time | date: "%U" | plus: 0 %}
     {% capture filtered_dates_array %}
-      {% for item in site.data.news.news %}
+      {% for item in site.data.newnews.news %}
         {{ item.date | date: "%U" | plus: 0}}
       {% endfor %}
     {% endcapture %}
@@ -21,7 +21,7 @@ layout: home
       {% if week_num == 0 %}
         <section class="week">
           <h3>This Week</h3>
-          {% for new in site.data.news.news %}
+          {% for new in site.data.newnews.news %}
             {% include archive-article.html new=new if_week=current_week %}
           {% endfor %}
         </section>
@@ -32,7 +32,7 @@ layout: home
           {% else %}
             <h3>{{week_num}} Weeks Ago</h3>
           {% endif %}
-          {% for new in site.data.news.news %}
+          {% for new in site.data.newnews.news %}
             {% include archive-article.html new=new if_week=week %}
           {% endfor %}
         </section>

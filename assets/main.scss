@@ -65,15 +65,17 @@ p.small {
   font-size: .8em;
 }
 
+
 p.alert {
-  color: black;
-  font-size: .8em;
-  padding: 3px;
+  background-color: rgb(240, 134, 102);
+  color: white;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-span.alert {
-  background-color: black;
-  color: white;
+p.alert a{
+ color: White;
 }
 
 b {
@@ -156,6 +158,10 @@ div#archive article>ul>li {
   margin-bottom: 15px;
 }
 
+div#archive li li {
+  font-size: 1em;
+}
+
 div.list {
 }
 
@@ -204,6 +210,10 @@ div#archive h2 {
 #titlebox h3 {
   font-size: 1.1em;
   margin-bottom: 15px;
+}
+
+p.alert {
+  font-size: 1em;
 }
 
 .today {

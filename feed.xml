@@ -8,7 +8,7 @@ layout: none
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for new in site.data.news.news %}
+    {% for new in site.data.newnews.news %}
       <item>
         <title>Impeachment latest: {{ new.date | date: "%B %-d, %Y" }}</title>
         <description>Impeachment update from {{ new.date | date: "%B %-d, %Y" }}</description>
